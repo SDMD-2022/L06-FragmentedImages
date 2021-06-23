@@ -45,8 +45,6 @@ class DetailFragment : Fragment() {
         val author = view.findViewById<TextView>(R.id.author)
         author.text = this.author
         return view
-
-        return inflater.inflate(R.layout.fragment_detail, container, false)
     }
 
     companion object {
